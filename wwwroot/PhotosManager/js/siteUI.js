@@ -459,6 +459,9 @@ function renderDetailPhoto(photo) {
                 <i class="fa-regular fa-thumbs-up fa-lg"></i>
             </div>
         </div>
+        <div class="photoDetailsDescription">
+        ${photo.Description}
+        </div>
         `);
     }
 }
